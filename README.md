@@ -1,6 +1,6 @@
-# MoHR - Modern HR Management System
+# MOHR - Modern HR Management System
 
-**MoHR (Modern HR)** is a comprehensive, nature-inspired HR management system built with Next.js, designed to streamline employee management, leave requests, attendance tracking, room booking, and dashboard analytics.
+**MOHR (Modern HR)** is a comprehensive, nature-inspired HR management system built with Next.js, designed to streamline employee management, leave requests, attendance tracking, room booking, and dashboard analytics.
 
 **Theme**: Moss Growth 🌿 - A nature-inspired design philosophy for modern HR management.
 
@@ -88,7 +88,7 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 git clone <repository-url>
-cd MoHR
+cd MOHR
 ```
 
 ### 2. Install Dependencies
@@ -112,7 +112,7 @@ Create a `.env.local` file in the `backend` directory:
 
 ```env
 # Database
-DATABASE_URL="postgresql://postgres:password@localhost:5432/mohr_db"
+DATABASE_URL="postgresql://postgres:password@localhost:5432/MOHR_db"
 
 # NextAuth
 NEXTAUTH_SECRET="your-secret-key-here"
@@ -173,7 +173,7 @@ npm run dev
 ## 📂 Project Structure
 
 ```
-MoHR/
+MOHR/
 ├── frontend/                # Next.js frontend application
 │   ├── app/                # App router pages
 │   │   ├── (auth)/        # Authentication pages
@@ -221,16 +221,16 @@ The project includes a custom-built UI component library located in `frontend/co
 
 ## 🔒 Authentication
 
-MoHR uses NextAuth.js for authentication with the following roles:
+MOHR uses NextAuth.js for authentication with the following roles:
 
 - **ADMIN** - Full system access
 - **MANAGER** - Employee management, leave approvals
 - **EMPLOYEE** - Personal data, leave requests, attendance
 
 ### Default Users (After Seeding)
-- Admin: `admin@mohr.com` / `Admin@123`
-- Manager: `manager@mohr.com` / `Manager@123`
-- Employee: `employee@mohr.com` / `Employee@123`
+- Admin: `admin@MOHR.com` / `Admin@123`
+- Manager: `manager@MOHR.com` / `Manager@123`
+- Employee: `employee@MOHR.com` / `Employee@123`
 
 ---
 
